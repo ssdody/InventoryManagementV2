@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Microsoft.AspNetCore.Authorization/8.0.12": {
         "type": "package",
         "dependencies": {
@@ -452,7 +452,7 @@
       },
       "InventoryManagementClient.Client/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.12"
         },
@@ -1173,47 +1173,38 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "InventoryManagementClient.Client >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.12"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/viktordoninski/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RetailHero\\InventoryManagementClient\\InventoryManagementClient\\InventoryManagementClient.csproj",
+      "projectUniqueName": "/Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementClient/InventoryManagementClient/InventoryManagementClient.csproj",
       "projectName": "InventoryManagementClient",
-      "projectPath": "D:\\RetailHero\\InventoryManagementClient\\InventoryManagementClient\\InventoryManagementClient.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\RetailHero\\InventoryManagementClient\\InventoryManagementClient\\obj\\",
+      "projectPath": "/Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementClient/InventoryManagementClient/InventoryManagementClient.csproj",
+      "packagesPath": "/Users/viktordoninski/.nuget/packages/",
+      "outputPath": "/Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementClient/InventoryManagementClient/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/viktordoninski/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\RetailHero\\InventoryManagementClient\\InventoryManagementClient.Client\\InventoryManagementClient.Client.csproj": {
-              "projectPath": "D:\\RetailHero\\InventoryManagementClient\\InventoryManagementClient.Client\\InventoryManagementClient.Client.csproj"
+            "/Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementClient/InventoryManagementClient.Client/InventoryManagementClient.Client.csproj": {
+              "projectPath": "/Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementClient/InventoryManagementClient.Client/InventoryManagementClient.Client.csproj"
             }
           }
         }
@@ -1228,11 +1219,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
@@ -1258,7 +1249,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

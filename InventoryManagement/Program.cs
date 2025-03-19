@@ -15,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 //         listenOptions.UseHttps();
 //     });
 // });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5001/") });
 
 // Database Configuration
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

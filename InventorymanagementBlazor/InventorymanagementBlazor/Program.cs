@@ -1,12 +1,32 @@
-using InventorymanagementBlazor.Client.Pages;
+using InventorymanagementBlazor.Client.Services;
 using InventorymanagementBlazor.Components;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"] ?? "https://localhost:5237/") });
+//unsafe for prod
+builder.Services.AddScoped(sp =>
+{
+    var handler = new HttpClientHandler()
+    {
+        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+    };
+    return new HttpClient(handler)
+    {
+        BaseAddress = new Uri("https://localhost:5237/") // Your API URL
+    };
+});
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+// Register your services
+
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IStoreService, StoreService>();
 
 var app = builder.Build();
 
@@ -18,12 +38,10 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 app.UseAntiforgery();
 
