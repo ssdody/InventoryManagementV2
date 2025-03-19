@@ -1,0 +1,69 @@
+﻿@page "/products"
+@using InventoryManagementShared.Models
+@using InventorymanagementBlazor.Client.Services
+@inject ProductService ProductService
+
+<h3>Product List</h3>
+
+<input type="text" @bind="SearchTerm" placeholder="Search..." class="form-control" />
+<button @onclick="SearchProducts" class="btn btn-primary mt-2">Search</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th @onclick="() => SortBy(nameof(Product.Name))">Name</th>
+            <th @onclick="() => SortBy(nameof(Product.Category))">Category</th>
+            <th @onclick="() => SortBy(nameof(Product.Quantity))">Quantity</th>
+            <th @onclick="() => SortBy(nameof(Product.Price))">Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in FilteredProducts)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Category</td>
+                <td>@product.Quantity</td>
+                <td>@product.Price</td>
+                <td>
+                    <button class="btn btn-warning">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Product> Products = new();
+    private List<Product> FilteredProducts = new();
+    private string SearchTerm = string.Empty;
+    private bool Ascending = true;
+    private string SortColumn = nameof(Product.Name);
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await ProductService.GetProductsAsync();
+        FilteredProducts = Products;
+    }
+
+    private void SearchProducts()
+    {
+        FilteredProducts = Products
+            .Where(p => string.IsNullOrEmpty(SearchTerm) || p.Name.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    private void SortBy(string column)
+    {
+        if (SortColumn == column)
+            Ascending = !Ascending;
+        else
+            SortColumn = column;
+
+        FilteredProducts = Ascending
+            ? FilteredProducts.OrderBy(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList()
+            : FilteredProducts.OrderByDescending(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList();
+    }
+}

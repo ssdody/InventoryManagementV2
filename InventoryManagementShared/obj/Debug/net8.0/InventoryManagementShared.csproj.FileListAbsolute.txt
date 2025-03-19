@@ -1,0 +1,11 @@
+D:\RetailHero\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.deps.json
+D:\RetailHero\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.dll
+D:\RetailHero\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.pdb
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.GeneratedMSBuildEditorConfig.editorconfig
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.AssemblyInfoInputs.cache
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.AssemblyInfo.cs
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.csproj.CoreCompileInputs.cache
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.dll
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\refint\InventoryManagementShared.dll
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.pdb
+D:\RetailHero\InventoryManagementShared\obj\Debug\net8.0\ref\InventoryManagementShared.dll

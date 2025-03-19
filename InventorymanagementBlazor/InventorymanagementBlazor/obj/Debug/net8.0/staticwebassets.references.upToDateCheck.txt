@@ -1,0 +1,2 @@
+D:\RetailHero\InventorymanagementBlazor\InventorymanagementBlazor.Client\obj\Debug\net8.0\staticwebassets.build.json
+D:\RetailHero\InventorymanagementBlazor\InventorymanagementBlazor.Client\obj\Debug\net8.0\staticwebassets.build.json

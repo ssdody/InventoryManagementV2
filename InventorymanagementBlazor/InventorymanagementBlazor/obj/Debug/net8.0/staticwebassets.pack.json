@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\InventorymanagementBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InventorymanagementBlazor.bhi5n66ndd.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InventorymanagementBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InventorymanagementBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InventorymanagementBlazor.props",
+      "PackagePath": "build\\InventorymanagementBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InventorymanagementBlazor.props",
+      "PackagePath": "buildMultiTargeting\\InventorymanagementBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InventorymanagementBlazor.props",
+      "PackagePath": "buildTransitive\\InventorymanagementBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
