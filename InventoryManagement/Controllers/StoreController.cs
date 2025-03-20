@@ -68,5 +68,14 @@ namespace InventoryManagement.Controllers
             await _storeService.DeleteStoreAsync(id);
             return NoContent();
         }
+
+        [HttpOptions]
+        public IActionResult Options()
+        {
+            Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:5000");
+            Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+            Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            return Ok();
+        }
     }
 }

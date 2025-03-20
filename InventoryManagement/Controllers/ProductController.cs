@@ -73,5 +73,11 @@ namespace InventoryManagement.Controllers
             await _productService.DeleteProductAsync(id);
             return NoContent();
         }
+
+        [HttpOptions]
+        public IActionResult Options()
+        {
+            return Ok();
+        }
     }
 }

@@ -13,24 +13,15 @@ builder.WebHost.ConfigureKestrel(options =>
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5001/") }); // Changed to HTTP
 
-
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:5000")  // Ensure matches API URL
-                          .AllowAnyHeader()
-                          .AllowAnyMethod());
+    options.AddPolicy("AllowLocalhost",
+        policy => policy.WithOrigins("http://localhost:5000") // Your Blazor app
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials()); // Ensure cookies/tokens work
 });
 
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowLocalhost", policy =>
-//    {
-//        policy.WithOrigins("http://localhost:5000")  // Allow your Blazor client URL
-//              .AllowAnyMethod()
-//              .AllowAnyHeader();
-//    });
-//});
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -48,6 +39,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseCors("AllowLocalhost");
 
 if (app.Environment.IsDevelopment())
 {
