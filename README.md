@@ -1,4 +1,4 @@
-# InventoryManagementV2
+# InventoryManagement
 
 
 ## Project Overview
