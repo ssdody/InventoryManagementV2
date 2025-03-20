@@ -51,7 +51,7 @@ dotnet build
 dotnet run
 ----------------------------------------
 Run Client
-cd InventorymanagementBlazor
+cd InventorymanagementBlazor/InventorymanagementBlazor
 dotnet restore
 dotnet build
 dotnet run
@@ -60,6 +60,7 @@ This will start the Blazor WebAssembly app, usually on https://localhost:5000
 ----------------------------------------
 Run Tests
 cd InventoryManagement.Tests
+dotnet restore
 dotnet test
 ----------------------------------------
 
