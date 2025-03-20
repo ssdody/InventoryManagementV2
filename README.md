@@ -46,11 +46,13 @@ cd InventoryManagementV2
 
 Run the API (Backend)
 cd InventoryManagement
+dotnet restore
 dotnet build
 dotnet run
 ----------------------------------------
 Run Client
 cd InventorymanagementBlazor
+dotnet restore
 dotnet build
 dotnet run
 
