@@ -11,17 +11,21 @@ namespace InventoryManagementShared.Models
 
         [Required]
         [StringLength(100)]
+        [RegularExpression(@"^[A-Za-z\s]+$", ErrorMessage = "Name can only contain alphabetic characters and spaces.")]
         public string Name { get; set; } = string.Empty;
 
-        public string? Category { get; set; }
+        [Required]
+        [StringLength(100)]
+        [RegularExpression(@"^[A-Za-z\s]+$", ErrorMessage = "Category can only contain alphabetic characters and spaces.")]
+        public string Category { get; set; } = string.Empty;
         public string? Description { get; set; }
 
         [Required]
-        [Range(0, int.MaxValue)]
+        [Range(1, int.MaxValue, ErrorMessage = "Quantity must be a positive number.")]
         public int Quantity { get; set; }
 
         [Required]
-        [Range(0, double.MaxValue)]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Price must be a positive value.")]
         public decimal Price { get; set; }
 
         // Foreign Key

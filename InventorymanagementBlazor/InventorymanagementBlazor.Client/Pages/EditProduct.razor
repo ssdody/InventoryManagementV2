@@ -10,25 +10,30 @@
 
 <EditForm Model="ProductToEdit" OnValidSubmit="UpdateProductAsync" FormName="EditProductForm">
     <DataAnnotationsValidator />
+    <ValidationSummary />
 
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <InputText id="name" class="form-control" @bind-Value="ProductToEdit.Name" />
+        <ValidationMessage For="@(() => ProductToEdit.Name)" />
     </div>
 
     <div class="mb-3">
         <label for="category" class="form-label">Category</label>
         <InputText id="category" class="form-control" @bind-Value="ProductToEdit.Category" />
+        <ValidationMessage For="@(() => ProductToEdit.Category)" />
     </div>
 
     <div class="mb-3">
         <label for="quantity" class="form-label">Quantity</label>
         <InputNumber id="quantity" class="form-control" @bind-Value="ProductToEdit.Quantity" />
+        <ValidationMessage For="@(() => ProductToEdit.Quantity)" />
     </div>
 
     <div class="mb-3">
         <label for="price" class="form-label">Price</label>
         <InputNumber id="price" class="form-control" @bind-Value="ProductToEdit.Price" />
+        <ValidationMessage For="@(() => ProductToEdit.Price)" />
     </div>
 
     <div class="mb-3">

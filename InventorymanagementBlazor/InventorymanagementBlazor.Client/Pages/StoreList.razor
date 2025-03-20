@@ -24,7 +24,7 @@ else
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Location</th>
+                <th>Description</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -33,6 +33,7 @@ else
             {
                 <tr>
                     <td>@store.Name</td>
+                    <td>@store.Description</td>
                     <td>
                         <a href="/edit-store/@store.Id" class="btn btn-primary btn-sm">Edit</a>
                         <button class="btn btn-danger btn-sm" @onclick="() => DeleteStore(store.Id)">Delete</button>

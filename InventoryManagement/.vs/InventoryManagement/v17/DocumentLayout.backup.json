@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC4E087-2906-4003-BE31-FC91C3317A70}|..\\InventoryManagementShared\\InventoryManagementShared.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementshared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\storelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC4E087-2906-4003-BE31-FC91C3317A70}|..\\InventoryManagementShared\\InventoryManagementShared.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementshared\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\editstore.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -18,21 +30,12 @@
       "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\services\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{956436CB-6E48-4D3C-320C-583D6FA1CEA4}|InventoryManagement.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagement\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{956436CB-6E48-4D3C-320C-583D6FA1CEA4}|InventoryManagement.csproj|solutionrelative:controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{956436CB-6E48-4D3C-320C-583D6FA1CEA4}|InventoryManagement.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagement\\services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{956436CB-6E48-4D3C-320C-583D6FA1CEA4}|InventoryManagement.csproj|solutionrelative:services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AC4E087-2906-4003-BE31-FC91C3317A70}|..\\InventoryManagementShared\\InventoryManagementShared.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementshared\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\storelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D9CA04-693D-440B-8325-2165D4023A40}|..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj|d:\\retailherotask-git\\inventorymanagementv2\\inventorymanagementblazor\\inventorymanagementblazor.client\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -99,11 +102,111 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\InventoryManagementShared\\Models\\Product.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Product.cs",
+              "RelativeToolTip": "..\\InventoryManagementShared\\Models\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T18:07:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditProduct.razor",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
+              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
+              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T17:26:36.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
+              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
+              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:19:52.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoreController.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "Controllers\\StoreController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:18:39.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IStoreService.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
+              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
+              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:20:04.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
+              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
+              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:15:59.135Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "..\\InventoryManagementShared\\Models\\Store.cs",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Store.cs",
+              "RelativeToolTip": "..\\InventoryManagementShared\\Models\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:30:54.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreList.razor",
+              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
+              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
+              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
+              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:24:47.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IProductService.cs",
@@ -116,98 +219,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EditStore.razor",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditStore.razor",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditStore.razor",
               "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditStore.razor",
               "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditStore.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEUAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T17:41:41.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditProduct.razor",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
-              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
-              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\EditProduct.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T17:26:36.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoreService.cs",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
-              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
-              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\StoreService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:19:52.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StoreController.cs",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "Controllers\\StoreController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:18:39.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IStoreService.cs",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
-              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
-              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\IStoreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:20:04.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsService.cs",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
-              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
-              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Services\\ProductsService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:15:59.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Store.cs",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Store.cs",
-              "RelativeDocumentMoniker": "..\\InventoryManagementShared\\Models\\Store.cs",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\Models\\Store.cs",
-              "RelativeToolTip": "..\\InventoryManagementShared\\Models\\Store.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:30:54.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProductList.razor",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\ProductList.razor",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\ProductList.razor",
@@ -215,12 +240,11 @@
               "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\ProductList.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T08:58:26.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T08:58:26.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StoreService.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Services\\StoreService.cs",
               "RelativeDocumentMoniker": "Services\\StoreService.cs",
@@ -228,12 +252,11 @@
               "RelativeToolTip": "Services\\StoreService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAD4vyMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:22:54.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:22:54.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateStore.razor",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateStore.razor",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateStore.razor",
@@ -241,12 +264,11 @@
               "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateStore.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:26:19.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:26:19.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Program.cs",
@@ -258,20 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StoreList.razor",
-              "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
-              "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
-              "ToolTip": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
-              "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\StoreList.razor",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:24:47.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreateProduct.razor",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateProduct.razor",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateProduct.razor",
@@ -279,12 +288,11 @@
               "RelativeToolTip": "..\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\Pages\\CreateProduct.razor",
               "ViewState": "AgIAADUAAAAAAAAAAADwv1MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:04:23.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:04:23.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
@@ -292,12 +300,11 @@
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwCUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:49:52.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:49:52.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -309,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -321,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\appsettings.json",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor\\appsettings.json",
@@ -333,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -345,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\Program.cs",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor\\Program.cs",
@@ -357,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "StoreRepository.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Repositories\\StoreRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StoreRepository.cs",
@@ -370,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "..\\InventorymanagementBlazor\\InventorymanagementBlazor\\Components\\Layout\\NavMenu.razor",
@@ -382,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Store.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Data\\Models\\Store.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Store.cs",
@@ -394,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IStoreRepository.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Repositories\\IStoreRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IStoreRepository.cs",
@@ -406,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagement\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",

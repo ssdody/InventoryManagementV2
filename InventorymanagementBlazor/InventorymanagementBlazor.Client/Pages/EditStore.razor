@@ -9,15 +9,18 @@
 
 <EditForm Model="StoreToEdit" OnValidSubmit="UpdateStoreAsync" FormName="EditStoreForm">
     <DataAnnotationsValidator />
+    <ValidationSummary />
 
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <InputText id="name" class="form-control" @bind-Value="StoreToEdit.Name" />
+        <ValidationMessage For="@(() => StoreToEdit.Name)" />
     </div>
 
     <div class="mb-3">
         <label for="description" class="form-label">Description</label>
         <InputTextArea id="description" class="form-control" @bind-Value="StoreToEdit.Description" />
+        <ValidationMessage For="@(() => StoreToEdit.Description)" />
     </div>
 
     <button type="submit" class="btn btn-primary">Save Changes</button>
