@@ -11,22 +11,20 @@ namespace InventoryManagement.Tests.Repositories
 {
     public class ProductRepositoryTests
     {
-        // Method to create an in-memory database context for testing
         private ApplicationDbContext GetDbContext()
         {
-            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(databaseName: "TestDb")
-                .Options;
-            return new ApplicationDbContext(options);
-        }
+        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
+        return new ApplicationDbContext(options);
+        }   
 
-        // Test the method to get products by store id
         [Fact]
         public async Task GetProductsByStoreIdAsync_ShouldReturnProductsForStore()
         {
             // Arrange
-            var context = GetDbContext();
-            context.Products.AddRange(
+            using var context = GetDbContext();
+            await context.Products.AddRangeAsync(
                 new Product { Id = 1, Name = "Product1", StoreId = 1 },
                 new Product { Id = 2, Name = "Product2", StoreId = 1 },
                 new Product { Id = 3, Name = "Product3", StoreId = 2 }
@@ -41,7 +39,7 @@ namespace InventoryManagement.Tests.Repositories
             // Assert
             Assert.NotNull(result);
             Assert.Equal(2, result.Count());
-            Assert.All(result, p => Assert.Equal(1, p.StoreId)); // All products should belong to storeId 1
+            Assert.All(result, p => Assert.Equal(1, p.StoreId));
         }
 
         // Test method to get a product by Id
