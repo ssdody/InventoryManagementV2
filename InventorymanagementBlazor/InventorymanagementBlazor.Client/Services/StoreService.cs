@@ -20,10 +20,22 @@ namespace InventorymanagementBlazor.Client.Services
             return await _httpClient.GetFromJsonAsync<List<Store>>("api/stores");
         }
 
+        public async Task<Store?> GetStoreById(int id)
+        {
+            return await _httpClient.GetFromJsonAsync<Store>($"api/stores/{id}");
+        }
+
+
         public async Task<bool> CreateStore(Store store)
         {
             Console.WriteLine("CreateStore service",store);
             var response = await _httpClient.PostAsJsonAsync("api/stores", store);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> UpdateStore(Store store)
+        {
+            var response = await _httpClient.PutAsJsonAsync($"api/stores/{store.Id}", store);
             return response.IsSuccessStatusCode;
         }
 

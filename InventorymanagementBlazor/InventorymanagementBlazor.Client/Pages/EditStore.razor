@@ -1,0 +1,77 @@
+﻿@page "/edit-store/{StoreId}"
+@using InventoryManagementShared.Models
+@using InventorymanagementBlazor.Client.Services
+@inject IStoreService StoreService
+@inject NavigationManager Navigation
+@rendermode InteractiveAuto
+
+<h3>Edit Store</h3>
+
+<EditForm Model="StoreToEdit" OnValidSubmit="UpdateStoreAsync" FormName="EditStoreForm">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="StoreToEdit.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <InputTextArea id="description" class="form-control" @bind-Value="StoreToEdit.Description" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</EditForm>
+
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success">@SuccessMessage</div>
+}
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+@code {
+    private Store StoreToEdit = new();
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+
+    [Parameter] public string StoreId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (int.TryParse(StoreId, out var parsedStoreId))
+        {
+            // Fetch the store to edit
+            var store = await StoreService.GetStoreById(parsedStoreId);
+
+            if (store != null)
+            {
+                StoreToEdit = store;
+            }
+            else
+            {
+                ErrorMessage = "Store not found.";
+            }
+        }
+        else
+        {
+            ErrorMessage = "Invalid Store ID.";
+        }
+    }
+
+    private async Task UpdateStoreAsync()
+    {
+        var success = await StoreService.UpdateStore(StoreToEdit);
+
+        if (success)
+        {
+            SuccessMessage = "Store updated successfully!";
+        }
+        else
+        {
+            ErrorMessage = "Failed to update store.";
+        }
+    }
+}

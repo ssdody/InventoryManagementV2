@@ -31,15 +31,27 @@
                 <td>@product.Quantity</td>
                 <td>@product.Price</td>
                 <td>
-                    <button class="btn btn-warning">Edit</button>
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-warning" @onclick="() => EditProduct(product.Id)">Edit</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteProduct(product.Id)">Delete</button>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success">@SuccessMessage</div>
+}
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
 @code {
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+
     private List<Product> Products = new();
     private List<Product> FilteredProducts = new();
     private string SearchTerm = string.Empty;
@@ -69,6 +81,27 @@
         FilteredProducts = Ascending
             ? FilteredProducts.OrderBy(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList()
             : FilteredProducts.OrderByDescending(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList();
+    }
+
+    private async Task DeleteProduct(int productId)
+    {
+        var isSuccess = await ProductService.DeleteProduct(productId);
+        if (isSuccess)
+        {
+            SuccessMessage = "Product deleted successfully!";
+            Products = await ProductService.GetProductsAsync();
+            FilteredProducts = Products;
+        }
+        else
+        {
+            ErrorMessage = "Failed to delete product.";
+        }
+    }
+
+    private void EditProduct(int productId)
+    {
+        // Navigate to edit page (not implemented in your request, but can be added)
+        Navigation.NavigateTo($"/edit-product/{productId}");
     }
 
     private void GoToCreateProduct()

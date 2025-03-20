@@ -3,6 +3,7 @@
 @using InventoryManagementShared.Models
 @using InventorymanagementBlazor.Client.Services
 @inject IStoreService StoreService
+@inject NavigationManager Navigation
 @rendermode InteractiveAuto
 
 <h3>Create Store</h3>
@@ -45,7 +46,8 @@
         if (success)
         {
             SuccessMessage = "Store created successfully!";
-            NewStore = new Store(); // Reset form
+            NewStore = new Store();
+            Navigation.NavigateTo("/create-product");
         }
         else
         {

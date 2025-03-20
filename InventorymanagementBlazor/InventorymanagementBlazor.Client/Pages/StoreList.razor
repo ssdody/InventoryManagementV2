@@ -3,8 +3,12 @@
 @using InventoryManagementShared.Models
 @using InventorymanagementBlazor.Client.Services
 @inject IStoreService StoreService
+@rendermode InteractiveAuto
 
 <h3>Stores</h3>
+
+
+<a href="/create-store" class="btn btn-success">Create Store</a>
 
 @if (Stores == null)
 {
@@ -39,9 +43,20 @@ else
     </table>
 }
 
-<a href="/create-store" class="btn btn-success">Create Store</a>
+
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success">@SuccessMessage</div>
+}
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
 
 @code {
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+
     private List<Store> Stores;
 
     protected override async Task OnInitializedAsync()
@@ -54,7 +69,12 @@ else
         var success = await StoreService.DeleteStore(storeId);
         if (success)
         {
+            SuccessMessage = "Store deleted successfully!";
             Stores = await StoreService.GetStoresAsync();
+        }
+        else
+        {
+            ErrorMessage = "Failed to delete store.";
         }
     }
 }
