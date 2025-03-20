@@ -41,7 +41,7 @@ Make sure you have the following tools installed:
 ### Clone the repository
 
 ```bash
-git clone [(https://github.com/ssdody/InventoryManagementV2.git](https://github.com/ssdody/InventoryManagementV2.git)
+git clone https://github.com/ssdody/InventoryManagementV2.git
 cd InventoryManagementV2
 
 Run the API (Backend)
