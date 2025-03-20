@@ -19,5 +19,18 @@ namespace InventorymanagementBlazor.Client.Services
         {
             return await _httpClient.GetFromJsonAsync<List<Store>>("api/stores");
         }
+
+        public async Task<bool> CreateStore(Store store)
+        {
+            Console.WriteLine("CreateStore service",store);
+            var response = await _httpClient.PostAsJsonAsync("api/stores", store);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteStore(int storeId)
+        {
+            var response = await _httpClient.DeleteAsync($"api/stores/{storeId}");
+            return response.IsSuccessStatusCode;
+        }
     }
 }

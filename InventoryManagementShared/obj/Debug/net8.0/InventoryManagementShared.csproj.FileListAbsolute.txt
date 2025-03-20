@@ -21,3 +21,15 @@ D:/RetailHero/InventoryManagementShared/obj/Debug/net8.0/ref/InventoryManagement
 /Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementShared/obj/Debug/net8.0/refint/InventoryManagementShared.dll
 /Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementShared/obj/Debug/net8.0/InventoryManagementShared.pdb
 /Users/viktordoninski/Documents/retailhero-git/InventoryManagementV2/InventoryManagementShared/obj/Debug/net8.0/ref/InventoryManagementShared.dll
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.deps.json
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.dll
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\bin\Debug\net8.0\InventoryManagementShared.pdb
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.GeneratedMSBuildEditorConfig.editorconfig
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.AssemblyInfoInputs.cache
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.AssemblyInfo.cs
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.csproj.CoreCompileInputs.cache
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.sourcelink.json
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.dll
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\refint\InventoryManagementShared.dll
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\InventoryManagementShared.pdb
+D:\retailherotask-git\InventoryManagementV2\InventoryManagementShared\obj\Debug\net8.0\ref\InventoryManagementShared.dll

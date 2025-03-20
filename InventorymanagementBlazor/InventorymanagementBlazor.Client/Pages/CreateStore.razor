@@ -1,0 +1,55 @@
+﻿@page "/create-store"
+
+@using InventoryManagementShared.Models
+@using InventorymanagementBlazor.Client.Services
+@inject IStoreService StoreService
+@rendermode InteractiveAuto
+
+<h3>Create Store</h3>
+
+<EditForm Model="NewStore" OnValidSubmit="CreateStoreAsync" FormName="CreateStoreForm">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Store Name</label>
+        <InputText id="name" class="form-control" @bind-Value="NewStore.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <InputText id="description" class="form-control" @bind-Value="NewStore.Description" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Store</button>
+</EditForm>
+
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success">@SuccessMessage</div>
+}
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+@code {
+    private Store NewStore = new();
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+
+    private async Task CreateStoreAsync()
+    {
+        Console.WriteLine("CreateStoreAsync called", NewStore.Name);
+        var success = await StoreService.CreateStore(NewStore);
+
+        if (success)
+        {
+            SuccessMessage = "Store created successfully!";
+            NewStore = new Store(); // Reset form
+        }
+        else
+        {
+            ErrorMessage = "Failed to create store.";
+        }
+    }
+}

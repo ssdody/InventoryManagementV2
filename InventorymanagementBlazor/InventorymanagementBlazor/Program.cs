@@ -3,7 +3,7 @@ using InventorymanagementBlazor.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"] ?? "https://localhost:5237/") });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5005") });
 //unsafe for prod
 builder.Services.AddScoped(sp =>
 {
@@ -13,7 +13,7 @@ builder.Services.AddScoped(sp =>
     };
     return new HttpClient(handler)
     {
-        BaseAddress = new Uri("https://localhost:5237/") // Your API URL
+        BaseAddress = new Uri("http://localhost:5005/") // Your API URL
     };
 });
 
@@ -27,6 +27,11 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IStoreService, StoreService>();
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(5000);
+});
 
 var app = builder.Build();
 

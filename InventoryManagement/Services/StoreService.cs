@@ -22,10 +22,10 @@ namespace InventoryManagement.Services
             return await _storeRepository.GetByIdAsync(id);
         }
 
-        // public async Task<IEnumerable<Store>> GetStoresWithProductsAsync()
-        // {
-        //     return await _storeRepository.GetStoresWithProductsAsync();
-        // }
+        public async Task<IEnumerable<Store>> GetStoresWithProductsAsync()
+        {
+            return await _storeRepository.GetStoresWithProductsAsync();
+        }
 
         public async Task AddStoreAsync(Store store)
         {

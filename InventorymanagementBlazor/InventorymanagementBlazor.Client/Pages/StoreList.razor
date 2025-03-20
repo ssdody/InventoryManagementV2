@@ -1,0 +1,60 @@
+﻿@page "/list-stores"
+
+@using InventoryManagementShared.Models
+@using InventorymanagementBlazor.Client.Services
+@inject IStoreService StoreService
+
+<h3>Stores</h3>
+
+@if (Stores == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!Stores.Any())
+{
+    <p>No stores found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var store in Stores)
+            {
+                <tr>
+                    <td>@store.Name</td>
+                    <td>
+                        <a href="/edit-store/@store.Id" class="btn btn-primary btn-sm">Edit</a>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteStore(store.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a href="/create-store" class="btn btn-success">Create Store</a>
+
+@code {
+    private List<Store> Stores;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Stores = await StoreService.GetStoresAsync();
+    }
+
+    private async Task DeleteStore(int storeId)
+    {
+        var success = await StoreService.DeleteStore(storeId);
+        if (success)
+        {
+            Stores = await StoreService.GetStoresAsync();
+        }
+    }
+}

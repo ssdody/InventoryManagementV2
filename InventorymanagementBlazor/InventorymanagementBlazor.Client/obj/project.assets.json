@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Microsoft.AspNetCore.Authorization/8.0.12": {
         "type": "package",
         "dependencies": {
@@ -415,7 +415,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -455,7 +455,7 @@
         }
       }
     },
-    "net8.0/browser-wasm": {
+    "net9.0/browser-wasm": {
       "Microsoft.AspNetCore.Authorization/8.0.12": {
         "type": "package",
         "dependencies": {
@@ -869,7 +869,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1554,10 +1554,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.12": {
-      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
+    "Microsoft.NET.ILLink.Tasks/9.0.1": {
+      "sha512": "BKFAkdhUUJivAoKuSWcT23WH9E+AWQMJootzt9X+lnesOD2a2yNIe1ZQFtxB8H3ayskLBD5gYyIbj5GIfw7rZg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.12",
+      "path": "microsoft.net.illink.tasks/9.0.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1571,7 +1571,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.1.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1589,19 +1589,19 @@
         "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
         "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
         "tools/net472/build/Microsoft.NET.ILLink.targets",
-        "tools/net8.0/ILLink.Tasks.deps.json",
-        "tools/net8.0/ILLink.Tasks.dll",
-        "tools/net8.0/Mono.Cecil.Mdb.dll",
-        "tools/net8.0/Mono.Cecil.Pdb.dll",
-        "tools/net8.0/Mono.Cecil.Rocks.dll",
-        "tools/net8.0/Mono.Cecil.dll",
-        "tools/net8.0/Sdk/Sdk.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
-        "tools/net8.0/illink.deps.json",
-        "tools/net8.0/illink.dll",
-        "tools/net8.0/illink.runtimeconfig.json",
+        "tools/net9.0/ILLink.Tasks.deps.json",
+        "tools/net9.0/ILLink.Tasks.dll",
+        "tools/net9.0/Mono.Cecil.Mdb.dll",
+        "tools/net9.0/Mono.Cecil.Pdb.dll",
+        "tools/net9.0/Mono.Cecil.Rocks.dll",
+        "tools/net9.0/Mono.Cecil.dll",
+        "tools/net9.0/Sdk/Sdk.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net9.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net9.0/illink.deps.json",
+        "tools/net9.0/illink.dll",
+        "tools/net9.0/illink.runtimeconfig.json",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1683,10 +1683,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "InventoryManagementShared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.12",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.1",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.1"
     ]
   },
@@ -1698,11 +1698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
+      "projectUniqueName": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
       "projectName": "InventorymanagementBlazor.Client",
-      "projectPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
+      "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\obj\\",
+      "outputPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1714,18 +1714,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj": {
-              "projectPath": "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj"
+            "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj": {
+              "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj"
             }
           }
         }
@@ -1743,8 +1743,8 @@
       "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
@@ -1753,7 +1753,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[9.0.1, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -1777,7 +1777,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.12, 8.0.12]"
+            "version": "[9.0.1, 9.0.1]"
           }
         ],
         "frameworkReferences": {

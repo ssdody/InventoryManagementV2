@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryManagementShared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc5781b00cb95828eb86c5d5bfa0078dd130e99d")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryManagementShared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryManagementShared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

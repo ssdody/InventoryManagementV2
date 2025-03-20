@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj": {}
+    "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj": {}
   },
   "projects": {
-    "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj": {
+    "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
+        "projectUniqueName": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
         "projectName": "InventorymanagementBlazor.Client",
-        "projectPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
+        "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\obj\\",
+        "outputPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,18 +23,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj": {
-                "projectPath": "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj"
+              "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj": {
+                "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj"
               }
             }
           }
@@ -52,8 +52,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -62,7 +62,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -86,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[9.0.1, 9.0.1]"
             }
           ],
           "frameworkReferences": {
@@ -103,14 +103,14 @@
         }
       }
     },
-    "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj": {
+    "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj",
+        "projectUniqueName": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj",
         "projectName": "InventorymanagementBlazor",
-        "projectPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj",
+        "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\InventorymanagementBlazor.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor\\obj\\",
+        "outputPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -122,21 +122,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj": {
-                "projectPath": "D:\\RetailHero\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj"
+              "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj": {
+                "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventorymanagementBlazor\\InventorymanagementBlazor.Client\\InventorymanagementBlazor.Client.csproj"
               },
-              "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj": {
-                "projectPath": "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj"
+              "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj": {
+                "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj"
               }
             }
           }
@@ -154,8 +154,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
@@ -185,14 +185,14 @@
         }
       }
     },
-    "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj": {
+    "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj",
+        "projectUniqueName": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj",
         "projectName": "InventoryManagementShared",
-        "projectPath": "D:\\RetailHero\\InventoryManagementShared\\InventoryManagementShared.csproj",
+        "projectPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\InventoryManagementShared.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\RetailHero\\InventoryManagementShared\\obj\\",
+        "outputPath": "D:\\retailherotask-git\\InventoryManagementV2\\InventoryManagementShared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -49,9 +49,11 @@ namespace InventoryManagement.Repositories
             }
         }
 
-        public Task<IEnumerable<Store>> GetStoresWithProductsAsync()
+        public async Task<IEnumerable<Store>> GetStoresWithProductsAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Stores
+                .Include(store => store.Products) 
+                .ToListAsync();
         }
     }
 }

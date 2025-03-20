@@ -1,0 +1,83 @@
+@page "/create-product"
+
+@using InventoryManagementShared.Models
+@using InventorymanagementBlazor.Client.Services
+@inject IProductService ProductService
+@inject IStoreService StoreService
+@rendermode InteractiveAuto
+
+<h3>Create Product</h3>
+
+<EditForm Model="NewProduct" OnValidSubmit="CreateProductAsync" FormName="CreateProductForm">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="NewProduct.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="category" class="form-label">Category</label>
+        <InputText id="category" class="form-control" @bind-Value="NewProduct.Category" />
+    </div>
+
+    <div class="mb-3">
+        <label for="quantity" class="form-label">Quantity</label>
+        <InputNumber id="quantity" class="form-control" @bind-Value="NewProduct.Quantity" />
+    </div>
+
+    <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <InputNumber id="price" class="form-control" @bind-Value="NewProduct.Price" />
+    </div>
+
+    <div class="mb-3">
+        <label for="storeId" class="form-label">Store</label>
+        <select id="storeId" class="form-control" @bind="NewProduct.StoreId">
+            <option value="">Select Store</option>
+            @foreach (var store in Stores)
+            {
+                <option value="@store.Id">@store.Name</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Product</button>
+</EditForm>
+
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success">@SuccessMessage</div>
+}
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+@code {
+    private Product NewProduct = new();
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+    private List<Store> Stores = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch stores from API
+        Stores = await StoreService.GetStoresAsync();
+    }
+
+    private async Task CreateProductAsync()
+    {
+        var success = await ProductService.CreateProduct(NewProduct);
+
+        if (success)
+        {
+            SuccessMessage = "Product created successfully!";
+            NewProduct = new Product(); // Reset form
+        }
+        else
+        {
+            ErrorMessage = "Failed to create product.";
+        }
+    }
+}

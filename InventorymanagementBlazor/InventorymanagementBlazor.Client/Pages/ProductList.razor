@@ -2,9 +2,12 @@
 @using InventoryManagementShared.Models
 @using InventorymanagementBlazor.Client.Services
 @inject IProductService ProductService
-
+@inject NavigationManager Navigation
+@rendermode InteractiveAuto
 
 <h3>Product List</h3>
+
+<button class="btn btn-success mb-3" @onclick="GoToCreateProduct">Create Product</button>
 
 <input type="text" @bind="SearchTerm" placeholder="Search..." class="form-control" />
 <button @onclick="SearchProducts" class="btn btn-primary mt-2">Search</button>
@@ -66,5 +69,10 @@
         FilteredProducts = Ascending
             ? FilteredProducts.OrderBy(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList()
             : FilteredProducts.OrderByDescending(p => p.GetType().GetProperty(column)?.GetValue(p)).ToList();
+    }
+
+    private void GoToCreateProduct()
+    {
+        Navigation.NavigateTo("/create-product");
     }
 }
