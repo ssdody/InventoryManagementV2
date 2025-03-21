@@ -44,6 +44,31 @@ Make sure you have the following tools installed:
 git clone https://github.com/ssdody/InventoryManagementV2.git
 cd InventoryManagementV2
 
+Setting Up the Database
+
+Before running the application, you need to set up the database:
+
+Update the Connection String
+
+Open appsettings.json in the InventoryManagement project.
+
+Modify the DefaultConnection string if needed:
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=localhost,1433;Database=InventoryDb;User Id=sa;Password=YourStrong!Passw0rd;Trusted_Connection=True;TrustServerCertificate=True;"
+}
+
+If using Azure Data Studio, ensure SQL Server is running and accessible.
+
+Apply Database Migrations
+
+Navigate to the API project:
+
+cd InventoryManagement
+dotnet ef database update
+
+This will set up the InventoryDb database with the required tables.
+
 Run the API (Backend)
 cd InventoryManagement
 dotnet restore
